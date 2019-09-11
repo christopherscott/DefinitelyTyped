@@ -63,6 +63,10 @@ declare namespace Filesize {
          */
         locale?: string | boolean;
         /**
+         * ECMA-402 number format option overrides, default is "{}"
+         */
+        localeOptions?: Intl.NumberFormatOptions;
+        /**
          * Output of function (array, exponent, object, or string), default is string
          */
         output?: "array" | "exponent" | "object" | "string";
